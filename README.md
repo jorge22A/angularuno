@@ -101,6 +101,8 @@ configuraciones de build
 opciones de entorno incluidas en la propia estructura del framework
 
 🖼 Capturas de pantalla
+ 
+![Captura de la aplicación](src/assets/captura.png)
 
 
 👤 Créditos del autor
