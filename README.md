@@ -1,59 +1,123 @@
-# MiProyecto
+# Angular 1 – Mi primera app en Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.2.
+##  Descripción del proyecto
+Este proyecto corresponde a la actividad **"Mi primera app en Angular"**, cuyo objetivo es comprender el flujo básico de trabajo en Angular: creación del proyecto, exploración de la estructura, modificación del componente principal, interpolación y uso de la carpeta `assets`.
 
-## Development server
+La aplicación desarrollada incluye:
+- Un título dinámico.
+- Un párrafo con el nombre del autor.
+- Una variable interpolada utilizando signals.
+- Una imagen cargada desde la carpeta `assets`.
 
-To start a local development server, run:
+---
 
+##  Instalación y ejecución
+
+### 1. Clonar el repositorio
 ```bash
-ng serve
-```
+git clone <URL-del-repositorio>
+2. Instalar dependencias
+bash
+Copy code
+npm install
+3. Ejecutar la aplicación
+bash
+Copy code
+ng serve -o
+La aplicación se abrirá automáticamente en:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+arduino
+Copy code
+http://localhost:4200
+ Exploración de la estructura del proyecto
+ 
+Este proyecto fue generado con Angular 17, que utiliza la arquitectura moderna basada en componentes standalone.
 
-## Code scaffolding
+Por este motivo, Angular ya no genera los archivos tradicionales que aparecen en la consigna del material teórico:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+app.component.ts
 
-```bash
-ng generate component component-name
-```
+app.module.ts
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+environments/
 
-```bash
-ng generate --help
-```
 
-## Building
+A continuación se describen los archivos equivalentes, cumpliendo con la consigna adaptada a Angular 17.
 
-To build the project run:
+✔ src/app/
+Carpeta principal donde residen los elementos fundamentales de la aplicación.
+Contiene el componente raíz y su configuración.
 
-```bash
-ng build
-```
+✔ app.ts
+(Equivalente moderno a app.component.ts)
+Define el componente raíz, incluyendo:
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+el título,
 
-## Running unit tests
+variables (signals),
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+la lógica básica del componente.
 
-```bash
-ng test
-```
+✔ app.html
+(Equivalente moderno a app.component.html)
+Es la plantilla HTML del componente raíz.
+Aquí se muestran:
 
-## Running end-to-end tests
+el título,
 
-For end-to-end (e2e) testing, run:
+el párrafo personalizado,
 
-```bash
-ng e2e
-```
+la variable interpolada,
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+la imagen desde la carpeta assets.
 
-## Additional Resources
+✔ app.config.ts
+(Equivalente moderno a app.module.ts)
+Archivo que reemplaza al módulo principal antiguo.
+Define:
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+configuraciones globales,
+
+imports necesarios,
+
+bootstrap inicial de la aplicación.
+
+✔ assets/
+Carpeta destinada a archivos estáticos como imágenes, íconos, documentos o recursos multimedia.
+Todo lo que se coloca aquí se copia directamente al proyecto compilado.
+
+✔ environments/
+Este directorio ya no existe en Angular 17+.
+Antes se utilizaba para manejar configuraciones separadas (desarrollo/producción).
+
+En la arquitectura moderna, estas configuraciones se manejan mediante:
+
+angular.json
+
+configuraciones de build
+
+opciones de entorno incluidas en la propia estructura del framework
+
+ Capturas de pantalla
+![Captura de la aplicación](src/assets/captura.png)
+
+
+ Créditos del autor
+Nombre: Jorge Acosta
+Curso: Módulo 1 – Unidad 1 – Conociendo Angular
+
+ Bibliografía y fuentes
+Angular. (s.f.). Welcome to the Angular tutorial.
+https://angular.dev/tutorials/learn-angular
+
+Angular. (s.f.). The Angular CLI.
+https://angular.dev/tools/cli
+
+Angular. (s.f.). Anatomy of a component.
+https://angular.dev/guide/components
+
+Freeman, A. (2020). Pro Angular 9. Apress.
+
+Imágenes
+Imagen local (puente.jpg / puente.png).
+Fuente: https://pixabay.com/es/
