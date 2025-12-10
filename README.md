@@ -1,9 +1,10 @@
 # Angular 1 – Mi primera app en Angular
 
-##  Descripción del proyecto
+## 📌 Descripción del proyecto
 Este proyecto corresponde a la actividad **"Mi primera app en Angular"**, cuyo objetivo es comprender el flujo básico de trabajo en Angular: creación del proyecto, exploración de la estructura, modificación del componente principal, interpolación y uso de la carpeta `assets`.
 
 La aplicación desarrollada incluye:
+
 - Un título dinámico.
 - Un párrafo con el nombre del autor.
 - Una variable interpolada utilizando signals.
@@ -11,7 +12,7 @@ La aplicación desarrollada incluye:
 
 ---
 
-##  Instalación y ejecución
+## 🛠 Instalación y ejecución
 
 ### 1. Clonar el repositorio
 ```bash
@@ -29,8 +30,7 @@ La aplicación se abrirá automáticamente en:
 arduino
 Copy code
 http://localhost:4200
- Exploración de la estructura del proyecto
- 
+📂 Exploración de la estructura del proyecto
 Este proyecto fue generado con Angular 17, que utiliza la arquitectura moderna basada en componentes standalone.
 
 Por este motivo, Angular ya no genera los archivos tradicionales que aparecen en la consigna del material teórico:
@@ -41,6 +41,7 @@ app.module.ts
 
 environments/
 
+Estos archivos existían en versiones anteriores de Angular, pero fueron reemplazados por una estructura más simple y modular.
 
 A continuación se describen los archivos equivalentes, cumpliendo con la consigna adaptada a Angular 17.
 
@@ -98,15 +99,14 @@ configuraciones de build
 
 opciones de entorno incluidas en la propia estructura del framework
 
- Capturas de pantalla
-![Captura de la aplicación](src/assets/captura.png)
+🖼 Capturas de pantalla
 
 
- Créditos del autor
+👤 Créditos del autor
 Nombre: Jorge Acosta
 Curso: Módulo 1 – Unidad 1 – Conociendo Angular
 
- Bibliografía y fuentes
+📚 Bibliografía y fuentes
 Angular. (s.f.). Welcome to the Angular tutorial.
 https://angular.dev/tutorials/learn-angular
 
@@ -118,6 +118,6 @@ https://angular.dev/guide/components
 
 Freeman, A. (2020). Pro Angular 9. Apress.
 
-Imágenes
+🖼 Imágenes
 Imagen local (puente.jpg / puente.png).
 Fuente: https://pixabay.com/es/
