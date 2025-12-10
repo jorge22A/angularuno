@@ -8,5 +8,6 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('mi-proyecto');
+  protected readonly title = signal('Angular 1');
+  protected readonly mensaje = signal('Este es mi primer texto interpolado en Angular');
 }
