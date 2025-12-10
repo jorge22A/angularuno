@@ -15,8 +15,9 @@ La aplicación desarrollada incluye:
 ## 🛠 Instalación y ejecución
 
 ### 1. Clonar el repositorio
-```bash
+```bash 
 git clone <URL-del-repositorio>
+```
 2. Instalar dependencias
 bash
 Copy code
